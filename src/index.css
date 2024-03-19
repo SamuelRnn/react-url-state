@@ -1,0 +1,22 @@
+#root {
+	padding: 1rem;
+}
+div:not(#root) {
+	padding: 0.8rem;
+	border: 1px solid #a7a7a7;
+	border-radius: 4px;
+}
+body,
+input {
+	background-color: #111;
+	color: #fff;
+}
+input {
+	border: 1px solid;
+}
+button {
+	color: currentColor;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #545454;
+}
